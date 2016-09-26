@@ -2,7 +2,7 @@
 YouTube Gallery e107 plugin
 
 +-----------------------------------------------------+ 
-|
+
 | YouTube Gallery v4.03 - by Erich Radstake  
 | Expention of old Youtube Movie Menu by Erich Radstake  
 |  
@@ -10,8 +10,11 @@ YouTube Gallery e107 plugin
 | http://www.erichradstake.nl  
 | info@erichradstake.nl 
 |
+
 | Contributor : Yesszus
+
 | https://github.com/yesszus/
+
 +-----------------------------------------------------+ 
 
 Youtube Gallery is a redesign of Youtube Movie Menu
