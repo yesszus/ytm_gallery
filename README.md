@@ -5,14 +5,13 @@ YouTube Gallery e107 plugin
 
 | YouTube Gallery v4.03 - by Erich Radstake  
 | Expention of old Youtube Movie Menu by Erich Radstake  
-|  
+  
 | v4.03  
 | http://www.erichradstake.nl  
 | info@erichradstake.nl 
-|
-|
+
 | Contributor : Yesszus
-|
+
 | https://github.com/yesszus/
 
 +-----------------------------------------------------+ 
