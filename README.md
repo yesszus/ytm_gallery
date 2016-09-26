@@ -2,8 +2,7 @@
 YouTube 107 plugin
 
 YouTube Gallery 
-+--------------------------------------------------
--------------+ 
++-----------------------------------------------------+ 
 | YouTube Gallery v4.03 - by Erich Radstake  
 | Expention of old Youtube Movie Menu by Erich Radstake  
 |  
@@ -11,8 +10,8 @@ YouTube Gallery
 | http://www.erichradstake.nl  
 | info@erichradstake.nl  
 |  
-+--------------------------------------------------
--------------+ 
++-----------------------------------------------------+ 
+
 Youtube Gallery is a redesign of Youtube Movie Menu
 IMPORTANT WHEN YOU USE YOUTUBE MOVIE MENU: 
 Please UNinstall any version of Youtube Movie Menu 
