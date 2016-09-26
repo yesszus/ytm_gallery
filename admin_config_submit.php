@@ -353,10 +353,10 @@ $movie_id   = $row['movie_id'];
 // Display movies
 $text .= "<tr>
 <td style='width:5%' class='forumheader3'><input type='checkbox' name='mcheckaction[]' value='$movie_id'/></td>
-<td style='width:30%' class='forumheader3'><a href='admin_config_preview.php?commentmovie=$movie_id' title='" . LAN_YTM_SUBM_PREFS_2 . ": $movie_title - " . LAN_YTM_SUBM_PREFS_5 . ": $movie_user " . LAN_YTM_SUBM_PREFS_6 . ": $movie_time' onclick=\"window.open('admin_config_preview.php?commentmovie=$movie_id','movie','width=550,height=550,scrollbars=yes,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\">$movie_title</a></td>
+<td style='width:30%' class='forumheader3'><a href='admin_config_preview.php?commentmovie=$movie_id' title='" . LAN_YTM_SUBM_PREFS_2 . ": $movie_title - " . LAN_YTM_SUBM_PREFS_5 . ": $movie_user " . LAN_YTM_SUBM_PREFS_6 . ": $movie_time' onclick=\"window.open('admin_config_preview.php?commentmovie=$movie_id','movie','width=550,height=700,scrollbars=yes,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\">$movie_title</a></td>
 <td style='width:30%' class='forumheader3'>$movie_category</td>
 <td style='width:30%' class='forumheader3'>
-<a href='admin_config_preview.php?commentmovie=$movie_id' title='". LAN_YTM_SUBM_PREFS_10 .": $movie_comment' onclick=\"window.open('admin_config_preview.php?commentmovie=$movie_id','movie','width=550,height=550,scrollbars=yes,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\"><img src='". e_IMAGE_ABS . "admin_images/content_16.png' border='0' /></a>
+<a href='admin_config_preview.php?commentmovie=$movie_id' title='". LAN_YTM_SUBM_PREFS_10 .": $movie_comment' onclick=\"window.open('admin_config_preview.php?commentmovie=$movie_id','movie','width=550,height=700,scrollbars=yes,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\"><img src='". e_IMAGE_ABS . "admin_images/content_16.png' border='0' /></a>
 <a href='" . e_SELF . "?approve=$movie_id' title='". LAN_YTM_SUBM_PREFS_11 ."'><img src='".e_PLUGIN."ytm_gallery/images/approve.gif' border='0' /></a>
 <a href='" . e_SELF . "?delete=$movie_id' title='$movie_title, ". LAN_YTM_SUBM_PREFS_9 ." '><img src='". e_IMAGE_ABS . "admin_images/delete_16.png' border='0' /></a>
 ";

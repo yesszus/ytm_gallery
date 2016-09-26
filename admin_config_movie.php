@@ -427,11 +427,11 @@ if ($movie_active == "0") {$acti_icon = "inactive.png";     $acti_lan = LAN_YTM_
 // Display movies
 $text .= "<tr>
 <td style='width:5%' class='forumheader3'><input type='checkbox' name='mcheckaction[]' value='$movie_id'/></td>
-<td style='width:30%' class='forumheader3'><a href='admin_config_preview.php?movie=$movie_id' title='" . LAN_YTM_MOVIE_PREFS_2 . ": $movie_title - " . LAN_YTM_MOVIE_PREFS_5 . ": $movie_user " . LAN_YTM_MOVIE_PREFS_6 . " $movie_time' onclick=\"window.open('admin_config_preview.php?movie=$movie_id','movie','width=550,height=550,scrollbars=no,toolbar=no,location=no,resizable=no,menubar=no,directories=no,status=no'); return false\">$movie_title</a></td>
+<td style='width:30%' class='forumheader3'><a href='admin_config_preview.php?movie=$movie_id' title='" . LAN_YTM_MOVIE_PREFS_2 . ": $movie_title - " . LAN_YTM_MOVIE_PREFS_5 . ": $movie_user " . LAN_YTM_MOVIE_PREFS_6 . " $movie_time' onclick=\"window.open('admin_config_preview.php?movie=$movie_id','movie','width=550,height=700,scrollbars=no,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\">$movie_title</a></td>
 <td style='width:30%' class='forumheader3'>$movie_category</td>
 <td style='width:30%' class='forumheader3'>
 <a href='" . e_SELF . "?$acti_action=$movie_id' title='$movie_title, $acti_lan'><img src='".e_PLUGIN."ytm_gallery/images/$acti_icon' border='0' /></a>
-<a href='admin_config_preview.php?movie=$movie_id' title='$movie_title , ". LAN_YTM_MOVIE_PREFS_21 ." ' onclick=\"window.open('admin_config_preview.php?movie=$movie_id','movie','width=550,height=550,scrollbars=no,toolbar=no,location=no,resizable=no,menubar=no,directories=no,status=no'); return false\"><img src='". e_PLUGIN . "ytm_gallery/images/content_16.png' border='0' /></a>
+<a href='admin_config_preview.php?movie=$movie_id' title='$movie_title , ". LAN_YTM_MOVIE_PREFS_21 ." ' onclick=\"window.open('admin_config_preview.php?movie=$movie_id','movie','width=550,height=700,scrollbars=no,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\"><img src='". e_PLUGIN . "ytm_gallery/images/content_16.png' border='0' /></a>
 <a href='" . e_SELF . "?edit=$movie_id' title='$movie_title , ". LAN_YTM_MOVIE_PREFS_22 ." '><img src='". e_IMAGE_ABS . "admin_images/edit_16.png' border='0' /></a>
 <a href='" . e_SELF . "?delete=$movie_id' title='$movie_title , ". LAN_YTM_MOVIE_PREFS_23 ." '><img src='". e_IMAGE_ABS . "admin_images/delete_16.png' border='0' /></a>
 ";
