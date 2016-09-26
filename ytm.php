@@ -20,7 +20,7 @@ $inst_version = $row20['plugin_version'];
 
 if ($inst_version <> $eplug_version){
 $text .="<center>";
-$text .="<img src='". e_IMAGE_ABS . "admin_images/nopreview.png' border='0' /><br />";
+$text .="<img src='". e_PLUGIN . "ytm_gallery/images/nopreview.png' border='0' /><br />";
 $text .= LAN_YTM_PAGE_26;
 $text .="</center>";
 
@@ -109,21 +109,11 @@ if     (!$view_title) {$text .= LAN_YTM_PAGE_20;}
 elseif (!check_class($view_new_cat_auth)) {$text .= LAN_YTM_PAGE_27;}
 else   {
 
-$text .= "<div align='center'><strong>$view_title</strong></div><br />";
+$text .= "<div align='center'><strong>$view_title</strong></div><br /><center>";
 
 
 $text .= "
-<center>
-
-<object width='400' height='257'>
-<param name='movie' value='http://www.youtube.com/v/$view_movie?fs=1&amp;hl=hu_HU&amp;rel=0&amp;showinfo=0&amp;disablekb=1&amp;modestbranding=1&amp;controls=0&amp;autohide=1'></param>
-<param name='allowscriptaccess' value='never'></param>
-<param name='allowFullScreen' value='true'></param>
-<param name='allowNetworking' value='internal' />
-
-<embed src='http://www.youtube.com/v/$view_movie?fs=1&amp;hl=hu_HU&amp;rel=0&amp;showinfo=0&amp;disablekb=1&amp;modestbranding=1&amp;controls=0&amp;autohide=1' type='application/x-shockwave-flash' width='400' height='257' allowscriptaccess='never' allowNetworking='internal' allowfullscreen='true'></embed>
-</object>
-
+<iframe width='400' height='257' src='https://www.youtube.com/embed/$view_movie?rel=0&amp;controls=1&amp;showinfo=0&amp;modestbranding=1&amp;autohide=1' frameborder='0' allowfullscreen></iframe>
 <br />";
 
 $text .= "<sup><b>" . LAN_YTM_PAGE_9 . "</b> $view_category <br /><b>" . LAN_YTM_PAGE_10 . "</b> $view_user <br /><b>" . LAN_YTM_PAGE_11 . "</b> $view_timestamp</sup><br /><br />";
@@ -147,8 +137,7 @@ $text .="";
 
       }else{
 
-$text .= "<a href='http://keepvid.com/?url=http://www.youtube.com/watch?v=$view_movie' title='$view_title " . LAN_YTM_PAGE_25 . " ' onclick=\"window.open('http://keepvid.com/?url=http://www.youtube.com/watch?v=$view_movie','download','width=800,height=650,scrollbars=yes,toolbar=no,location=no,resizable=no,menubar=no,directories=no,status=no'); return false\">" . LAN_YTM_PAGE_12 . "</a>&nbsp;/&nbsp;
-<a href='http://snipmp3.com/?url=http://www.youtube.com/watch?v=$view_movie' title='$view_title " . LAN_YTM_PAGE_25 . " ' onclick=\"window.open('http://snipmp3.com/?url=http://www.youtube.com/watch?v=$view_movie','download','width=800,height=650,scrollbars=yes,toolbar=no,location=no,resizable=no,menubar=no,directories=no,status=no'); return false\">" . LAN_YTM_PAGE_12a . "</a>&nbsp;/&nbsp;";
+$text .= "<a href='http://www.clipconverter.cc/?url=http://www.youtube.com/watch?v=$view_movie' title='$view_title " . LAN_YTM_PAGE_25 . " ' onclick=\"window.open('http://www.clipconverter.cc/?url=http://www.youtube.com/watch?v=$view_movie','download','width=800,height=650,scrollbars=yes,toolbar=no,location=no,resizable=yes,menubar=no,directories=no,status=no'); return false\">" . LAN_YTM_PAGE_12 . "</a>&nbsp;/&nbsp;";
 
       }
 
