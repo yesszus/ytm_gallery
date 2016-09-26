@@ -2,8 +2,8 @@
 YouTube 107 plugin
 
 YouTube Gallery 
-+-----------------------------------------------------+ 
 
++-----------------------------------------------------+ 
 | YouTube Gallery v4.03 - by Erich Radstake  
 | Expention of old Youtube Movie Menu by Erich Radstake  
 |  
@@ -17,7 +17,7 @@ Youtube Gallery is a redesign of Youtube Movie Menu
 
 IMPORTANT WHEN YOU USE YOUTUBE MOVIE MENU:
 
-Please UNinstall any version of Youtube Movie Menu 
+Please Uninstall any version of Youtube Movie Menu 
 (ytm_menu) completely and remove the files, copy th
 is version to your server and install it
 With Youtube Gallery you can create your own youtub
