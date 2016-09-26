@@ -1,7 +1,5 @@
-# ytm_gallery
-YouTube 107 plugin
 
-YouTube Gallery 
+YouTube Gallery e107 plugin
 
 +-----------------------------------------------------+ 
 
