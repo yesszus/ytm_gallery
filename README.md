@@ -10,9 +10,9 @@ YouTube Gallery e107 plugin
 | http://www.erichradstake.nl  
 | info@erichradstake.nl 
 |
-
+|
 | Contributor : Yesszus
-
+|
 | https://github.com/yesszus/
 
 +-----------------------------------------------------+ 
