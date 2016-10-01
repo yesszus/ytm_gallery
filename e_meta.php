@@ -7,5 +7,6 @@ echo "<script type='text/javascript' src='".e_PLUGIN."ytm_gallery/scripts/check.
 //rating
 echo "<script type='text/javascript' src='".e_PLUGIN."ytm_gallery/scripts/behavior.js'></script>\n";
 echo "<script type='text/javascript' src='".e_PLUGIN."ytm_gallery/scripts/rating.js'></script>\n";
-echo "<link rel='stylesheet' type='text/css' href='".e_PLUGIN."ytm_gallery/css/rating.css' />";
+echo "<link rel='stylesheet' type='text/css' href='".e_PLUGIN."ytm_gallery/css/rating.css' />\n";
+echo "<meta name='viewport' content='width=device-width,initial-scale=1'>\n";
 ?>
